@@ -22,28 +22,24 @@ using namespace std;
             cout <<"After --a b= "<<a<<endl; // Value after pre-decrement
             cout <<"After b-- b= "<<b<<endl; // Value after post-decrement
 
+
             // Comparison operators
             bool isEqual = (a == b);
             bool isNotEqual = (a != b);
             bool isGreater = (a > b);
 
+
             // Logical and Relational Operators
-            bool logicalAnd = (a > 5 && b < 5);
-            bool logicalOr = (a > 5 || b > 5);
-            bool logicalNot = !(a > b);
+            cout <<" Logical and Relational Operators"<<endl;
+            cout <<"(a && b) = "<<(a && b)<<endl; // Logical AND
+            cout <<"(a || b) = "<<(a || b)<<endl; // Logical OR
+            cout <<"!(a) = "<<(!a)<<endl; // Logical NOT
+
 
             // Bitwise operators
-            int sum = a & b; // Bitwise AND
-            int diff = a | b; // Bitwise OR
-
-            cout << "isEqual: " << isEqual << endl;
-            cout << "isNotEqual: " << isNotEqual << endl;
-            cout << "isGreater: " << isGreater << endl;
-            cout << "logicalAnd: " << logicalAnd << endl;
-            cout << "logicalOr: " << logicalOr << endl;
-            cout << "logicalNot: " << logicalNot << endl;
-            cout << "Bitwise AND (a & b): " << sum << endl;
-            cout << "Bitwise OR (a | b): " << diff << endl;
+            cout <<" Bitwise operators"<<endl;
+            cout <<"a & b= "<<(a & b)<<endl; // Bitwise AND
+            cout <<"a | b= "<<(a | b)<<endl; // Bitwise OR
 
             return 0;
         }
