@@ -15,7 +15,7 @@ using namespace std;
                         cout << name << " " << say << " " << color << endl;
                     }
             };
-
+            
             animal animal1;
             animal1.name = "Dog";
             animal1.say = "Woof";
