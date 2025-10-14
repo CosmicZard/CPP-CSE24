@@ -41,5 +41,12 @@ using namespace std;
             cout <<"a & b= "<<(a & b)<<endl; // Bitwise AND
             cout <<"a | b= "<<(a | b)<<endl; // Bitwise OR
 
+            //Typecaste Operators
+            cout<<"Type cast Operator: "<<endl;
+            double pi = 3.14159;
+            pi = (int)pi; // C-style cast
+            cout << "Value of pi: " << pi << endl;
+
+            
             return 0;
         }
