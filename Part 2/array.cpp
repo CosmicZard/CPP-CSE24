@@ -1,14 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int marks[] = {20, 30, 40, 50, 60};
-    int size = sizeof(marks) / sizeof(int);
+int main() {
+    int n,i;
+    cin >> n;        // Input size of array
 
-    cout << marks[0] << endl; 
-    cout << marks[1] << endl; 
-    cout << size << endl;
+    int arr[n];
+    for(i = 0; i < n; i++) {
+        cin >> arr[i] ;   // input elements
+    }
 
-    return 0;   
+    cout << "Elements of Array -: ";
+
+    for(i = 0; i < n; i++) {
+        cout <<arr[i] <<" ";  
+    }
+    
+    return 0;
 }
