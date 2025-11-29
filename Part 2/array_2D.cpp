@@ -1,28 +1,16 @@
 #include <iostream>
 using namespace std;
 
-void sum(int a, int b) {
-    cout << "Sum is: " << a + b << endl;
-}
-void say() {
-    cout << "Hello World" << endl;
-}
-
-void printNum(int n) {
-    cout << "Number: " << n << endl;
-}
-
-void matrixMultiplication() {
+int main() {
+    
+    // Matrix multiplication of two 2D arrays
     int a[2][3] = { {1, 2, 3},
                     {4, 5, 6} };
-
     int b[3][2] = { {7, 8},
                     {9, 10},
                     {11, 12} };
-
     int result[2][2] = {0};
-
-    
+    // Performing matrix multiplication
     for(int i = 0; i < 2; i++) {
         for(int j = 0; j < 2; j++) {
             for(int k = 0; k < 3; k++) {
@@ -38,23 +26,6 @@ void matrixMultiplication() {
         }
         cout << endl;
     }
-}   
-
-int main() {
-
-    matrixMultiplication();
-
-
-    /* int num1 = 10;
-    int num2 = 20;
-
-    printNum(num1);
-    printNum(num2);
-
-    say();
-    
-    sum(5, 3);   */
     
     return 0;
-     
 }

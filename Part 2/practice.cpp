@@ -1,4 +1,4 @@
-// paladrome number using recursion
+/* // paladrome number using recursion
 
 #include <iostream>
 #include <algorithm>
@@ -23,10 +23,10 @@ int main() {
      
     return 0;
 }
+ */
 
 
-
-/* // Fabonocci Series using Recursion by function
+// Fabonocci Series using Recursion by function
 #include <iostream>
 #include <math.h>
 
@@ -53,7 +53,7 @@ int main() {
     cin >> n;
     fabonocci(n);
     return 0;
-} */
+} 
 
 
 
