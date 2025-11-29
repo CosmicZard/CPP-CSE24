@@ -7,10 +7,6 @@ void printHello(int n) {
     printHello(n-3);
 }
 
-void faboonoci(){
-
-}
-
 int main() {
     
     printHello(3);
