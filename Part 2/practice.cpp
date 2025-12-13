@@ -25,16 +25,10 @@ int main() {
 }
  */
 
+// Fabonocci Series 
 
-// Fabonocci Series using Recursion by function
-#include <iostream>
-#include <math.h>
-
-using namespace std;
-
-
-void fabonocci(int n) {
-
+void fabonocciNum(){
+    int n = 10;
     int a = 0, b = 1, c;
 
     cout << a << " " << b << " ";
@@ -47,11 +41,59 @@ void fabonocci(int n) {
     }
 }
 
+
+// Fabonocci Series using Recursion by function
+#include <iostream>
+#include <math.h>
+#include <algorithm>
+#include <string>
+
+using namespace std;
+
+void Vowel_ConsonentSort(){
+    string str;
+    cout << "Enter a string: ";
+    getline(cin, str);
+
+    string vowels = "";
+    string consonants = "";
+
+    for (char c : str) {
+        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
+            vowels += c;
+        } else if (isalpha(c)) {
+            consonants += c;
+        }
+    }
+
+    sort(vowels.begin(), vowels.end());
+    cout << "Sorted Vowels: " << vowels << endl;
+    sort(consonants.begin(), consonants.end());
+    cout << "Sorted Consonants: " << consonants << endl;
+}
+
+void reverseString(string str) {
+    
+    reverse(str.begin(), str.end());
+    cout << "Reversed String: " << str << endl;
+}
+
 int main() {
-    int n;
-    cout << "Enter the number of terms in Fabonocci Series: ";
-    cin >> n;
-    fabonocci(n);
+    // int n;
+    // cout << "Enter the number of terms in Fabonocci Series: ";
+    // cin >> n;
+    // fabonocci(n);
+    // return 0;
+    
+    // Vowel_ConsonentSort();
+    
+    string str;
+    cout << "Enter a string to reverse: ";
+    // getline(cin, str);
+    // reverseString(str);
+    fabonocciNum();
+
     return 0;
 } 
 
