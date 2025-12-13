@@ -17,18 +17,18 @@ void simpleInterest(int principle, float rate, int time){
 
 int main() {
     
-/*     int x = 5; 
+    int x = 5; 
     int y = 6;
 
     cout <<"Before Swaping   x -:  "<<x<<"  y -:"<<y<< endl;
 
-    swap(x,y); */
+    swap(x,y);
 
-    int principal = 1000; // Principal amount
+/*     int principal = 1000; // Principal amount
     float rate = 5.5;     // Annual interest rate in percentage
     int time = 3;         // Time in years
 
-    simpleInterest(principal,rate,time);
+    simpleInterest(principal,rate,time); */
 
 
     
