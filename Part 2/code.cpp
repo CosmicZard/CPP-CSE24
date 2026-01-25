@@ -26,7 +26,7 @@ int main() {
 
 // 2.2
 
-#include <iostream>
+/* #include <iostream>
 using namespace std;
 
 int main() {
@@ -48,7 +48,7 @@ int main() {
 
     return 0;
 }
-
+ */
 
 // 2.3
 
@@ -450,3 +450,42 @@ int main() {
     return 0;
 }
  */
+
+#include <iostream>
+using namespace std;
+
+class Student {
+public:
+    int roll;
+    char name[50];
+
+    void getData() {
+        cout << "Enter Roll Number: ";
+        cin >> roll;
+        cin.ignore();
+        cout << "Enter Name: ";
+        cin.getline(name, 50);
+    }
+
+    void display() {
+        cout << "Roll Number: " << roll << endl;
+        cout << "Name: " << name << endl;
+    }
+};
+
+int main() {
+    Student s[5];
+
+    for (int i = 0; i < 5; i++) {
+        cout << "\nEnter details of student " << i + 1 << endl;
+        s[i].getData();
+    }
+
+    cout << "\n--- Student Details ---\n";
+    for (int i = 0; i < 5; i++) {
+        cout << "\nStudent " << i + 1 << endl;
+        s[i].display();
+    }
+
+    return 0;
+}

@@ -1,22 +1,11 @@
-    int a, b, choice;
-    cin >> a >> b >> choice;
+    // for (int i = 5 - 1; i >= 1; i--) {
 
-    switch (choice) {
-        case 1:
-            cout << a + b;
-            break;
-        case 2:
-            cout << a - b;
-            break;
-        case 3:
-            cout << a * b;
-            break;
-        case 4:
-            if (b != 0)
-                cout << a / b;   // integer division
-            else
-                cout << "Division by zero error";
-            break;
-        default:
-            cout << "Invalid choice";
-    }
+    //     for (int space = 5; space > i; space--) {
+    //         cout << "  ";
+    //     }
+
+    //     for (int star = 1; star <= i; star++) {
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }

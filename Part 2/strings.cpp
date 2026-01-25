@@ -6,17 +6,17 @@ using namespace std;
 
 int main()
 {
+    
+    char str[] = {'H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
 
-    /* char str[] = {'H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
+    cout << "Welcome Message: " << str << endl; 
 
-    cout << "Welcome Message: " << str << endl; */
-
-    /* char string[100];
+    char string[100];
     cout << "Enter a string: ";
     cin.getline(string, 2);
-    cout << "You entered: " << string << endl; */
+    cout << "You entered: " << string << endl; 
 
-    /* char f_name[50], l_name[50] , full_name[100];
+    char f_name[50], l_name[50] , full_name[100];
     cout << "Enter your first name: ";
     cin.getline(f_name, 50);
     cout << "Enter your last name: ";
@@ -36,26 +36,26 @@ int main()
     else
     {
         cout << "Strings are not the same." << endl;
-    } */
+    }
 
     // Declaring and using C++ string object
 
-    /* string str;
+    string str;
     cout << "Enter a string: ";
     getline(cin, str);
     cout << "You entered: " << str << endl;
-     */
+    
 
     // Concatenation of C++ string objects using append() and + operator
 
-    /* string str1 = "Hello";
+    string str1 = "Hello";
     string str2 = " World!";
     string str3;
 
     str3 = str1.append(str2);
-    cout << "Concatenated String: " << str3 << endl; */
+    cout << "Concatenated String: " << str3 << endl; 
 
-    /* string str1 = {"Hello"} ;
+    string str1 = {"Hello"} ;
     string str2 = {"Joy!"} ;
     string str3 (str2) ;
     string str4 (5 , 'a') ;
@@ -71,14 +71,14 @@ int main()
     cout << "After left rotation by 2: " << str1 << endl ;
     rotate(str2.begin(), str2.end() - 3, str2.end()) ;
     cout << "After right rotation by 3: " << str2 << endl ;
-    */
+    
 
-    /* string str1 = "Hi, Welcome Home!";
+    string str1 = "Hi, Welcome Home!";
     string str2 = "I am Roshan!";
 
     cout<< str1.insert(3, " Roshan ") << endl ;
     cout<< str1.insert(3, str2) << endl ;
-    cout<< str1.insert(21, ". What will you have?",4 ,5) << endl ; */
+    cout<< str1.insert(21, ". What will you have?",4 ,5) << endl ;
 
 
     string str1 = "Hello, Welcome to C++ programming.";
